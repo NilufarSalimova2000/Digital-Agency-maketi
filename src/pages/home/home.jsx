@@ -81,10 +81,33 @@ export const Home = () => {
                </div>
             </section>
 
-            <section className="py-[55px] bg-[#f5f5f5]">
+            <section className="py-[55px] md:py-[70px] bg-[#f5f5f5]">
                <div className="container">
                   <h3 className="font-semibold text-[24px] md:text-[30px] leading-[187%] text-[#222] mb-[32px]">Lorem Ipsum</h3>
                   <p className="font-normal text-[16px] leading-[187%] text-[#525252] mb-[33px] md:mb-[65px] w-[264px] md:w-[545px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+                  <ul className="flex items-center justify-center sm:gap-[38px]">
+                     <li style={{boxShadow: "0 4px 94px 0 rgba(0, 0, 0, 0.05)"}} className="w-[299px] lg:w-[378px] bg-[#fff] 
+                     rounded-[20px] p-[30px]">
+                        <p style={{background: "rgba(12, 190, 100, 0.15)"}} className="font-normal text-[14px] leading-[187%] text-[#0cbe64] rounded-[8px] py-[6px] px-[11px] w-[119px] mb-[18px]">Lorem ipsum</p>
+                        <h3 className="font-semibold text-[20px] leading-[187%] text-[#000] mb-[14px]">Lorem ipsum</h3>
+                        <p className="font-normal text-[12px] leading-[187%] text-[#525252] mb-[28px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        <a className="font-medium text-[14px] leading-[187%] text-[#dc7000] text-right block" href="#">Read more</a>
+                     </li>
+                     <li style={{boxShadow: "0 4px 94px 0 rgba(0, 0, 0, 0.05)"}} className="hidden md:block w-[299px] lg:w-[378px] bg-[#fff] 
+                     rounded-[20px] p-[30px]">
+                        <p style={{background: "rgba(12, 190, 100, 0.15)"}} className="font-normal text-[14px] leading-[187%] text-[#0cbe64] rounded-[8px] py-[6px] px-[11px] w-[119px] mb-[18px]">Lorem ipsum</p>
+                        <h3 className="font-semibold text-[20px] leading-[187%] text-[#000] mb-[14px]">Lorem ipsum</h3>
+                        <p className="font-normal text-[12px] leading-[187%] text-[#525252] mb-[28px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        <a className="font-medium text-[14px] leading-[187%] text-[#dc7000] text-right block" href="#">Read more</a>
+                     </li>
+                     <li style={{boxShadow: "0 4px 94px 0 rgba(0, 0, 0, 0.05)"}} className="hidden lg:block w-[299px] lg:w-[378px] bg-[#fff] 
+                     rounded-[20px] p-[30px]">
+                        <p style={{background: "rgba(12, 190, 100, 0.15)"}} className="font-normal text-[14px] leading-[187%] text-[#0cbe64] rounded-[8px] py-[6px] px-[11px] w-[119px] mb-[18px]">Lorem ipsum</p>
+                        <h3 className="font-semibold text-[20px] leading-[187%] text-[#000] mb-[14px]">Lorem ipsum</h3>
+                        <p className="font-normal text-[12px] leading-[187%] text-[#525252] mb-[28px]">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                        <a className="font-medium text-[14px] leading-[187%] text-[#dc7000] text-right block" href="#">Read more</a>
+                     </li>
+                  </ul>
                </div>
             </section>
          </main>
